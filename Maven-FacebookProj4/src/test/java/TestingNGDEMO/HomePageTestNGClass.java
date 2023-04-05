@@ -1,5 +1,6 @@
 package TestingNGDEMO;
 
+import java.io.IOException;
 import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.WebDriver;
@@ -7,6 +8,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.support.ui.WebDriverWait;
+import org.testng.ITestResult;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.AfterTest;
@@ -17,16 +19,19 @@ import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
 
+import BrowserSetup.Base;
 import Pages.ForgotPassword;
 import Pages.HomePageFacebookLogin;
+import Utils.Utility;
 
-public class HomePageTestNGClass {
+public class HomePageTestNGClass extends Base {
 	
 	HomePageFacebookLogin homepage;
 	
 	WebDriver driver;
 	
 	SoftAssert soft;
+	String TESTID;
 	
 	@Parameters("browser")
 	
@@ -35,20 +40,16 @@ public class HomePageTestNGClass {
 		System.out.println("Before Test-1");
 		if(BrowserName.equals("Chrome"))
 		{
-			System.setProperty("webdriver.chrome.driver", "D:\\Selenium New file\\chromedriver_win32 (3)\\chromedriver.exe");
-			driver = new ChromeDriver();
+			driver=OpenChromeBrowser();
 		}
 		if(BrowserName.equals("Firefox"))
 	    {
-			System.setProperty("webdriver.gecko.driver", "D:\\Selenium New file\\geckodriver-v0.32.2-win32\\geckodriver.exe");
-			driver = new FirefoxDriver();
+			driver=OpenFirefoxBrowser();
 		}
 		if(BrowserName.equals("Edge"))
 	    {
-			System.setProperty("webdriver.edge.driver", "D:\\Selenium New file\\edgedriver_win64\\msedgedriver.exe");
-			driver = new EdgeDriver();
+			driver=OpenEgdeBrowser();
 		}
-		
 	    driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(10,TimeUnit.SECONDS);
 		
@@ -103,6 +104,7 @@ public class HomePageTestNGClass {
 	}	
 	@Test(priority=3)
 	public void VerifyErrorSMGOccursByPassingInvalidData() {
+		TESTID="TEST-3001";
 		System.out.println("Test3");
 		
 		homepage.SendOnEmailOrPhone();
@@ -121,7 +123,11 @@ public class HomePageTestNGClass {
 
 	
 	@AfterMethod
-	public void afterMethod() {
+	public void afterMethod(ITestResult result) throws IOException, InterruptedException {
+		if(ITestResult.FAILURE==result.getStatus())
+		{
+			Utility.captureScreenshot(driver, TESTID);
+		}
 		System.out.println("After Method-1");
 	}
 	

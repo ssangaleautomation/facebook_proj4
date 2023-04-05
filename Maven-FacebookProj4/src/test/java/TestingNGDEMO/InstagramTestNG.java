@@ -1,5 +1,6 @@
 package TestingNGDEMO;
 
+import java.io.IOException;
 import java.util.ArrayList;
 import java.util.concurrent.TimeUnit;
 
@@ -8,6 +9,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.testng.ITestResult;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.AfterTest;
@@ -18,10 +20,12 @@ import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
 
+import BrowserSetup.Base;
 import Pages.CreateNewAccount;
 import Pages.Instagram;
+import Utils.Utility;
 
-public class InstagramTestNG {
+public class InstagramTestNG extends Base {
 	
 	
 	WebDriver driver;
@@ -29,6 +33,7 @@ public class InstagramTestNG {
 	
 	WebDriver wait;
 	SoftAssert soft;
+	String TESTID;
 	
 	@Parameters("browser")
 	
@@ -37,18 +42,15 @@ public class InstagramTestNG {
 		System.out.println("Before Test-4");
 		if(BrowserName.equals("Chrome"))
 		{
-			System.setProperty("webdriver.chrome.driver", "D:\\Selenium New file\\chromedriver_win32 (3)\\chromedriver.exe");
-			driver = new ChromeDriver();
+			driver=OpenChromeBrowser();
 		}
 		if(BrowserName.equals("Firefox"))
 	    {
-			System.setProperty("webdriver.gecko.driver", "D:\\Selenium New file\\geckodriver-v0.32.2-win32\\geckodriver.exe");
-			driver = new FirefoxDriver();
+			driver=OpenFirefoxBrowser();
 		}
 		if(BrowserName.equals("Edge"))
 	    {
-			System.setProperty("webdriver.edge.driver", "D:\\Selenium New file\\edgedriver_win64\\msedgedriver.exe");
-			driver = new EdgeDriver();
+			driver=OpenEgdeBrowser();
 		}
 		
 	    driver.manage().window().maximize();
@@ -86,6 +88,7 @@ public class InstagramTestNG {
 	}
 	@Test(priority=1)
 	public void VerifyInstagramLink() {
+		TESTID="TEST-3007";
 		System.out.println("Test X");
 		
 		 String ActualTitle=driver.getTitle();
@@ -103,6 +106,7 @@ public class InstagramTestNG {
 	}
 	@Test(priority=2)
 	public void VerifyForgotPassworfLinkInstagram() throws InterruptedException {
+		TESTID="TEST-3008";
 		System.out.println("Test Y");
 		
 
@@ -148,14 +152,19 @@ public class InstagramTestNG {
 		
 	}
 	@AfterMethod
-	public void afterMethod() {
+	public void afterMethod(ITestResult result) throws IOException, InterruptedException {
+		if(ITestResult.FAILURE==result.getStatus())
+		{
+			Utility.captureScreenshot(driver, TESTID);
+		}
+	
 		System.out.println("After Method-4");
 	}
 	
 	@AfterClass
 	public void clearObject() {
 		System.out.println("After class-4");
-//		instaa=null;
+		instaa=null;
 	}
 		
 	
@@ -163,8 +172,8 @@ public class InstagramTestNG {
 	public void afterTest() {
 		System.out.println("After Test-4");
 		driver.quit();
-	//	driver=null;
-	//	System.gc();
+		driver=null;
+		System.gc();
 	}
 	
 	

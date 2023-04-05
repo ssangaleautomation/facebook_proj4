@@ -1,11 +1,13 @@
 package TestingNGDEMO;
 
+import java.io.IOException;
 import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.testng.ITestResult;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.AfterTest;
@@ -16,15 +18,18 @@ import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
 
+import BrowserSetup.Base;
 import Pages.ForgotPassword;
 import Pages.HomePageFacebookLogin;
+import Utils.Utility;
 
-public class TestNGClass1 {
+public class TestNGClass1 extends Base {
 	
 	
 	WebDriver driver;
 	ForgotPassword forgotpass;
 	SoftAssert soft;
+	String TESTID;
 	
 	@Parameters("browser")
 	
@@ -33,18 +38,15 @@ public class TestNGClass1 {
 		System.out.println("Before Test-2");
 		if(BrowserName.equals("Chrome"))
 		{
-			System.setProperty("webdriver.chrome.driver", "D:\\Selenium New file\\chromedriver_win32 (3)\\chromedriver.exe");
-			driver = new ChromeDriver();
+			driver=OpenChromeBrowser();
 		}
 		if(BrowserName.equals("Firefox"))
 	    {
-			System.setProperty("webdriver.gecko.driver", "D:\\Selenium New file\\geckodriver-v0.32.2-win32\\geckodriver.exe");
-			driver = new FirefoxDriver();
+			driver=OpenFirefoxBrowser();
 		}
 		if(BrowserName.equals("Edge"))
 	    {
-			System.setProperty("webdriver.edge.driver", "D:\\Selenium New file\\edgedriver_win64\\msedgedriver.exe");
-			driver = new EdgeDriver();
+			driver=OpenEgdeBrowser();
 		}
 		
 	    driver.manage().window().maximize();
@@ -72,6 +74,7 @@ public class TestNGClass1 {
 	}
 	@Test(priority=1)
 	public void VerifyMessageonforgotpasswordPage() {
+		TESTID="TEST-3005";
 		System.out.println("Test A");
 
 		 String Actualmsg=forgotpass.getTextMessage();
@@ -81,6 +84,7 @@ public class TestNGClass1 {
 	}
 	@Test(priority=2)
 	public void VerifyCancelbuttononForgotpasswordpage() {
+		TESTID="TEST-3006";
 		System.out.println("Test B");
 
 		forgotpass.ClickonCancel();
@@ -94,7 +98,12 @@ public class TestNGClass1 {
 		soft.assertAll();
 	}	
 	@AfterMethod
-	public void afterMethod() {
+	public void afterMethod(ITestResult result) throws IOException, InterruptedException {
+		if(ITestResult.FAILURE==result.getStatus())
+		{
+			Utility.captureScreenshot(driver, TESTID);
+		}
+	
 		System.out.println("After Method-2");
 	}
 	
