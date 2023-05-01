@@ -1,76 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="9" passed="9" failed="0" skipped="0">
+<testng-results ignored="0" total="9" passed="5" failed="4" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-03-27T21:48:34 IST" name="Suite" finished-at="2023-03-27T21:49:48 IST" duration-ms="73401">
+  <suite started-at="2023-04-14T10:53:53 IST" name="Suite" finished-at="2023-04-14T10:55:44 IST" duration-ms="110788">
     <groups>
     </groups>
-    <test started-at="2023-03-27T21:48:34 IST" name="ChromeTest" finished-at="2023-03-27T21:49:12 IST" duration-ms="38020">
+    <test started-at="2023-04-14T10:53:53 IST" name="FirefoxTest" finished-at="2023-04-14T10:54:35 IST" duration-ms="41814">
       <class name="TestingNGDEMO.InstagramTestNG">
-        <test-method is-config="true" signature="OpenBrowser(java.lang.String)[pri:0, instance:TestingNGDEMO.InstagramTestNG@2667f029]" started-at="2023-03-27T21:48:34 IST" name="OpenBrowser" finished-at="2023-03-27T21:48:36 IST" duration-ms="1574" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- OpenBrowser -->
-        <test-method is-config="true" signature="createPOMObject()[pri:0, instance:TestingNGDEMO.InstagramTestNG@2667f029]" started-at="2023-03-27T21:48:36 IST" name="createPOMObject" finished-at="2023-03-27T21:48:36 IST" duration-ms="25" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- createPOMObject -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:TestingNGDEMO.InstagramTestNG@2667f029]" started-at="2023-03-27T21:48:36 IST" name="beforeMethod" finished-at="2023-03-27T21:48:44 IST" duration-ms="8039" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method signature="VerifyInstagramLink()[pri:1, instance:TestingNGDEMO.InstagramTestNG@2667f029]" started-at="2023-03-27T21:48:44 IST" name="VerifyInstagramLink" finished-at="2023-03-27T21:48:48 IST" duration-ms="4128" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- VerifyInstagramLink -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:TestingNGDEMO.InstagramTestNG@2667f029]" started-at="2023-03-27T21:48:48 IST" name="beforeMethod" finished-at="2023-03-27T21:48:55 IST" duration-ms="6797" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:TestingNGDEMO.InstagramTestNG@2667f029]" started-at="2023-03-27T21:48:48 IST" name="afterMethod" finished-at="2023-03-27T21:48:48 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method signature="VerifyForgotPassworfLinkInstagram()[pri:2, instance:TestingNGDEMO.InstagramTestNG@2667f029]" started-at="2023-03-27T21:48:55 IST" name="VerifyForgotPassworfLinkInstagram" finished-at="2023-03-27T21:49:06 IST" duration-ms="11280" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- VerifyForgotPassworfLinkInstagram -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:TestingNGDEMO.InstagramTestNG@2667f029]" started-at="2023-03-27T21:49:06 IST" name="afterMethod" finished-at="2023-03-27T21:49:06 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:TestingNGDEMO.InstagramTestNG@2667f029]" started-at="2023-03-27T21:49:06 IST" name="beforeMethod" finished-at="2023-03-27T21:49:12 IST" duration-ms="5887" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method signature="VerifyGOHOMEpAGE()[pri:3, instance:TestingNGDEMO.InstagramTestNG@2667f029]" started-at="2023-03-27T21:49:12 IST" name="VerifyGOHOMEpAGE" finished-at="2023-03-27T21:49:12 IST" duration-ms="52" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- VerifyGOHOMEpAGE -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:TestingNGDEMO.InstagramTestNG@2667f029]" started-at="2023-03-27T21:49:12 IST" name="afterMethod" finished-at="2023-03-27T21:49:12 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="clearObject()[pri:0, instance:TestingNGDEMO.InstagramTestNG@2667f029]" started-at="2023-03-27T21:49:12 IST" name="clearObject" finished-at="2023-03-27T21:49:12 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- clearObject -->
-        <test-method is-config="true" signature="afterTest()[pri:0, instance:TestingNGDEMO.InstagramTestNG@2667f029]" started-at="2023-03-27T21:49:12 IST" name="afterTest" finished-at="2023-03-27T21:49:12 IST" duration-ms="189" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterTest -->
-      </class> <!-- TestingNGDEMO.InstagramTestNG -->
-    </test> <!-- ChromeTest -->
-    <test started-at="2023-03-27T21:48:34 IST" name="FirefoxTest" finished-at="2023-03-27T21:49:18 IST" duration-ms="43643">
-      <class name="TestingNGDEMO.InstagramTestNG">
-        <test-method is-config="true" signature="OpenBrowser(java.lang.String)[pri:0, instance:TestingNGDEMO.InstagramTestNG@5f058f00]" started-at="2023-03-27T21:48:34 IST" name="OpenBrowser" finished-at="2023-03-27T21:48:37 IST" duration-ms="2741" status="PASS">
+        <test-method is-config="true" signature="OpenBrowser(java.lang.String)[pri:0, instance:TestingNGDEMO.InstagramTestNG@694abbdc]" started-at="2023-04-14T10:53:53 IST" name="OpenBrowser" finished-at="2023-04-14T10:53:57 IST" duration-ms="3625" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -81,59 +18,280 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- OpenBrowser -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:TestingNGDEMO.InstagramTestNG@5f058f00]" started-at="2023-03-27T21:48:37 IST" name="beforeMethod" finished-at="2023-03-27T21:48:46 IST" duration-ms="9387" status="PASS">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:TestingNGDEMO.InstagramTestNG@694abbdc]" started-at="2023-04-14T10:53:57 IST" name="beforeMethod" finished-at="2023-04-14T10:54:06 IST" duration-ms="9170" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method is-config="true" signature="createPOMObject()[pri:0, instance:TestingNGDEMO.InstagramTestNG@5f058f00]" started-at="2023-03-27T21:48:37 IST" name="createPOMObject" finished-at="2023-03-27T21:48:37 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="createPOMObject()[pri:0, instance:TestingNGDEMO.InstagramTestNG@694abbdc]" started-at="2023-04-14T10:53:57 IST" name="createPOMObject" finished-at="2023-04-14T10:53:57 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createPOMObject -->
-        <test-method signature="VerifyInstagramLink()[pri:1, instance:TestingNGDEMO.InstagramTestNG@5f058f00]" started-at="2023-03-27T21:48:46 IST" name="VerifyInstagramLink" finished-at="2023-03-27T21:48:46 IST" duration-ms="7" status="PASS">
+        <test-method signature="VerifyInstagramLink()[pri:1, instance:TestingNGDEMO.InstagramTestNG@694abbdc]" started-at="2023-04-14T10:54:06 IST" name="VerifyInstagramLink" finished-at="2023-04-14T10:54:06 IST" duration-ms="26" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- VerifyInstagramLink -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:TestingNGDEMO.InstagramTestNG@5f058f00]" started-at="2023-03-27T21:48:46 IST" name="afterMethod" finished-at="2023-03-27T21:48:46 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:TestingNGDEMO.InstagramTestNG@694abbdc]" started-at="2023-04-14T10:54:06 IST" name="afterMethod" finished-at="2023-04-14T10:54:06 IST" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=VerifyInstagramLink status=SUCCESS method=InstagramTestNG.VerifyInstagramLink()[pri:1, instance:TestingNGDEMO.InstagramTestNG@694abbdc] output={null}]]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:TestingNGDEMO.InstagramTestNG@5f058f00]" started-at="2023-03-27T21:48:46 IST" name="beforeMethod" finished-at="2023-03-27T21:48:53 IST" duration-ms="6827" status="PASS">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:TestingNGDEMO.InstagramTestNG@694abbdc]" started-at="2023-04-14T10:54:06 IST" name="beforeMethod" finished-at="2023-04-14T10:54:14 IST" duration-ms="7832" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="VerifyForgotPassworfLinkInstagram()[pri:2, instance:TestingNGDEMO.InstagramTestNG@5f058f00]" started-at="2023-03-27T21:48:53 IST" name="VerifyForgotPassworfLinkInstagram" finished-at="2023-03-27T21:49:11 IST" duration-ms="17736" status="PASS">
+        <test-method signature="VerifyForgotPassworfLinkInstagram()[pri:2, instance:TestingNGDEMO.InstagramTestNG@694abbdc]" started-at="2023-04-14T10:54:14 IST" name="VerifyForgotPassworfLinkInstagram" finished-at="2023-04-14T10:54:24 IST" duration-ms="10120" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[Unable to locate element: //a[contains(text(),'Forgot password?')]
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ACER', ip: '192.168.43.147', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 111.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20230321111920, moz:geckodriverVersion: 0.32.2, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 45356, moz:profile: C:\Users\sanja\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: c3ca437d-8cbe-4a8a-bedc-0005f5ff8378
+*** Element info: {Using=xpath, value=//a[contains(text(),'Forgot password?')]}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to locate element: //a[contains(text(),'Forgot password?')]
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ACER', ip: '192.168.43.147', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 111.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20230321111920, moz:geckodriverVersion: 0.32.2, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 45356, moz:profile: C:\Users\sanja\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: c3ca437d-8cbe-4a8a-bedc-0005f5ff8378
+*** Element info: {Using=xpath, value=//a[contains(text(),'Forgot password?')]}
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at jdk.proxy2/jdk.proxy2.$Proxy17.click(Unknown Source)
+at Pages.Instagram.ClickonForgotPassword(Instagram.java:32)
+at TestingNGDEMO.InstagramTestNG.VerifyForgotPassworfLinkInstagram(InstagramTestNG.java:128)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- VerifyForgotPassworfLinkInstagram -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:TestingNGDEMO.InstagramTestNG@5f058f00]" started-at="2023-03-27T21:49:11 IST" name="afterMethod" finished-at="2023-03-27T21:49:11 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:TestingNGDEMO.InstagramTestNG@694abbdc]" started-at="2023-04-14T10:54:24 IST" name="afterMethod" finished-at="2023-04-14T10:54:25 IST" duration-ms="935" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=VerifyForgotPassworfLinkInstagram status=FAILURE method=InstagramTestNG.VerifyForgotPassworfLinkInstagram()[pri:2, instance:TestingNGDEMO.InstagramTestNG@694abbdc] output={null}]]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:TestingNGDEMO.InstagramTestNG@5f058f00]" started-at="2023-03-27T21:49:11 IST" name="beforeMethod" finished-at="2023-03-27T21:49:17 IST" duration-ms="6201" status="PASS">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:TestingNGDEMO.InstagramTestNG@694abbdc]" started-at="2023-04-14T10:54:25 IST" name="beforeMethod" finished-at="2023-04-14T10:54:33 IST" duration-ms="7636" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="VerifyGOHOMEpAGE()[pri:3, instance:TestingNGDEMO.InstagramTestNG@5f058f00]" started-at="2023-03-27T21:49:17 IST" name="VerifyGOHOMEpAGE" finished-at="2023-03-27T21:49:17 IST" duration-ms="36" status="PASS">
+        <test-method signature="VerifyUserCanGoInstagramPageToFacebookMainPage()[pri:3, instance:TestingNGDEMO.InstagramTestNG@694abbdc]" started-at="2023-04-14T10:54:33 IST" name="VerifyUserCanGoInstagramPageToFacebookMainPage" finished-at="2023-04-14T10:54:33 IST" duration-ms="91" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[The following asserts failed:
+Tile is wrong expected [Create a ] but found [Create a Page]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: The following asserts failed:
+Tile is wrong expected [Create a ] but found [Create a Page]
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:47)
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:31)
+at TestingNGDEMO.InstagramTestNG.VerifyUserCanGoInstagramPageToFacebookMainPage(InstagramTestNG.java:161)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- VerifyGOHOMEpAGE -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:TestingNGDEMO.InstagramTestNG@5f058f00]" started-at="2023-03-27T21:49:17 IST" name="afterMethod" finished-at="2023-03-27T21:49:17 IST" duration-ms="0" status="PASS">
+        </test-method> <!-- VerifyUserCanGoInstagramPageToFacebookMainPage -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:TestingNGDEMO.InstagramTestNG@694abbdc]" started-at="2023-04-14T10:54:33 IST" name="afterMethod" finished-at="2023-04-14T10:54:34 IST" duration-ms="1013" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=VerifyUserCanGoInstagramPageToFacebookMainPage status=FAILURE method=InstagramTestNG.VerifyUserCanGoInstagramPageToFacebookMainPage()[pri:3, instance:TestingNGDEMO.InstagramTestNG@694abbdc] output={null}]]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="clearObject()[pri:0, instance:TestingNGDEMO.InstagramTestNG@5f058f00]" started-at="2023-03-27T21:49:17 IST" name="clearObject" finished-at="2023-03-27T21:49:17 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="clearObject()[pri:0, instance:TestingNGDEMO.InstagramTestNG@694abbdc]" started-at="2023-04-14T10:54:34 IST" name="clearObject" finished-at="2023-04-14T10:54:34 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clearObject -->
-        <test-method is-config="true" signature="afterTest()[pri:0, instance:TestingNGDEMO.InstagramTestNG@5f058f00]" started-at="2023-03-27T21:49:17 IST" name="afterTest" finished-at="2023-03-27T21:49:18 IST" duration-ms="694" status="PASS">
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:TestingNGDEMO.InstagramTestNG@694abbdc]" started-at="2023-04-14T10:54:34 IST" name="afterTest" finished-at="2023-04-14T10:54:35 IST" duration-ms="1331" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
       </class> <!-- TestingNGDEMO.InstagramTestNG -->
     </test> <!-- FirefoxTest -->
-    <test started-at="2023-03-27T21:49:12 IST" name="EdgeTest" finished-at="2023-03-27T21:49:48 IST" duration-ms="35349">
+    <test started-at="2023-04-14T10:53:53 IST" name="ChromeTest" finished-at="2023-04-14T10:54:43 IST" duration-ms="49316">
       <class name="TestingNGDEMO.InstagramTestNG">
-        <test-method is-config="true" signature="OpenBrowser(java.lang.String)[pri:0, instance:TestingNGDEMO.InstagramTestNG@333291e3]" started-at="2023-03-27T21:49:12 IST" name="OpenBrowser" finished-at="2023-03-27T21:49:13 IST" duration-ms="762" status="PASS">
+        <test-method is-config="true" signature="OpenBrowser(java.lang.String)[pri:0, instance:TestingNGDEMO.InstagramTestNG@481a996b]" started-at="2023-04-14T10:53:53 IST" name="OpenBrowser" finished-at="2023-04-14T10:53:55 IST" duration-ms="1545" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenBrowser -->
+        <test-method is-config="true" signature="createPOMObject()[pri:0, instance:TestingNGDEMO.InstagramTestNG@481a996b]" started-at="2023-04-14T10:53:55 IST" name="createPOMObject" finished-at="2023-04-14T10:53:55 IST" duration-ms="27" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createPOMObject -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:TestingNGDEMO.InstagramTestNG@481a996b]" started-at="2023-04-14T10:53:55 IST" name="beforeMethod" finished-at="2023-04-14T10:54:03 IST" duration-ms="8354" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="VerifyInstagramLink()[pri:1, instance:TestingNGDEMO.InstagramTestNG@481a996b]" started-at="2023-04-14T10:54:03 IST" name="VerifyInstagramLink" finished-at="2023-04-14T10:54:14 IST" duration-ms="10362" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyInstagramLink -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:TestingNGDEMO.InstagramTestNG@481a996b]" started-at="2023-04-14T10:54:14 IST" name="afterMethod" finished-at="2023-04-14T10:54:14 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=VerifyInstagramLink status=SUCCESS method=InstagramTestNG.VerifyInstagramLink()[pri:1, instance:TestingNGDEMO.InstagramTestNG@481a996b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:TestingNGDEMO.InstagramTestNG@481a996b]" started-at="2023-04-14T10:54:14 IST" name="beforeMethod" finished-at="2023-04-14T10:54:22 IST" duration-ms="8241" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="VerifyForgotPassworfLinkInstagram()[pri:2, instance:TestingNGDEMO.InstagramTestNG@481a996b]" started-at="2023-04-14T10:54:22 IST" name="VerifyForgotPassworfLinkInstagram" finished-at="2023-04-14T10:54:31 IST" duration-ms="8721" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyForgotPassworfLinkInstagram -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:TestingNGDEMO.InstagramTestNG@481a996b]" started-at="2023-04-14T10:54:31 IST" name="afterMethod" finished-at="2023-04-14T10:54:31 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=VerifyForgotPassworfLinkInstagram status=SUCCESS method=InstagramTestNG.VerifyForgotPassworfLinkInstagram()[pri:2, instance:TestingNGDEMO.InstagramTestNG@481a996b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:TestingNGDEMO.InstagramTestNG@481a996b]" started-at="2023-04-14T10:54:31 IST" name="beforeMethod" finished-at="2023-04-14T10:54:41 IST" duration-ms="10341" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="VerifyUserCanGoInstagramPageToFacebookMainPage()[pri:3, instance:TestingNGDEMO.InstagramTestNG@481a996b]" started-at="2023-04-14T10:54:41 IST" name="VerifyUserCanGoInstagramPageToFacebookMainPage" finished-at="2023-04-14T10:54:41 IST" duration-ms="88" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[The following asserts failed:
+Tile is wrong expected [Create a ] but found [Create a Page]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: The following asserts failed:
+Tile is wrong expected [Create a ] but found [Create a Page]
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:47)
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:31)
+at TestingNGDEMO.InstagramTestNG.VerifyUserCanGoInstagramPageToFacebookMainPage(InstagramTestNG.java:161)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyUserCanGoInstagramPageToFacebookMainPage -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:TestingNGDEMO.InstagramTestNG@481a996b]" started-at="2023-04-14T10:54:41 IST" name="afterMethod" finished-at="2023-04-14T10:54:42 IST" duration-ms="1168" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=VerifyUserCanGoInstagramPageToFacebookMainPage status=FAILURE method=InstagramTestNG.VerifyUserCanGoInstagramPageToFacebookMainPage()[pri:3, instance:TestingNGDEMO.InstagramTestNG@481a996b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="clearObject()[pri:0, instance:TestingNGDEMO.InstagramTestNG@481a996b]" started-at="2023-04-14T10:54:42 IST" name="clearObject" finished-at="2023-04-14T10:54:42 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clearObject -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:TestingNGDEMO.InstagramTestNG@481a996b]" started-at="2023-04-14T10:54:42 IST" name="afterTest" finished-at="2023-04-14T10:54:43 IST" duration-ms="428" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- TestingNGDEMO.InstagramTestNG -->
+    </test> <!-- ChromeTest -->
+    <test started-at="2023-04-14T10:54:35 IST" name="EdgeTest" finished-at="2023-04-14T10:55:44 IST" duration-ms="68880">
+      <class name="TestingNGDEMO.InstagramTestNG">
+        <test-method is-config="true" signature="OpenBrowser(java.lang.String)[pri:0, instance:TestingNGDEMO.InstagramTestNG@1fa268de]" started-at="2023-04-14T10:54:35 IST" name="OpenBrowser" finished-at="2023-04-14T10:54:36 IST" duration-ms="1179" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -144,51 +302,101 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- OpenBrowser -->
-        <test-method is-config="true" signature="createPOMObject()[pri:0, instance:TestingNGDEMO.InstagramTestNG@333291e3]" started-at="2023-03-27T21:49:13 IST" name="createPOMObject" finished-at="2023-03-27T21:49:13 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="createPOMObject()[pri:0, instance:TestingNGDEMO.InstagramTestNG@1fa268de]" started-at="2023-04-14T10:54:36 IST" name="createPOMObject" finished-at="2023-04-14T10:54:36 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createPOMObject -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:TestingNGDEMO.InstagramTestNG@333291e3]" started-at="2023-03-27T21:49:13 IST" name="beforeMethod" finished-at="2023-03-27T21:49:23 IST" duration-ms="9526" status="PASS">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:TestingNGDEMO.InstagramTestNG@1fa268de]" started-at="2023-04-14T10:54:36 IST" name="beforeMethod" finished-at="2023-04-14T10:54:56 IST" duration-ms="19669" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="VerifyInstagramLink()[pri:1, instance:TestingNGDEMO.InstagramTestNG@333291e3]" started-at="2023-03-27T21:49:23 IST" name="VerifyInstagramLink" finished-at="2023-03-27T21:49:25 IST" duration-ms="2732" status="PASS">
+        <test-method signature="VerifyInstagramLink()[pri:1, instance:TestingNGDEMO.InstagramTestNG@1fa268de]" started-at="2023-04-14T10:54:56 IST" name="VerifyInstagramLink" finished-at="2023-04-14T10:55:21 IST" duration-ms="24951" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- VerifyInstagramLink -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:TestingNGDEMO.InstagramTestNG@333291e3]" started-at="2023-03-27T21:49:25 IST" name="beforeMethod" finished-at="2023-03-27T21:49:32 IST" duration-ms="6597" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:TestingNGDEMO.InstagramTestNG@333291e3]" started-at="2023-03-27T21:49:25 IST" name="afterMethod" finished-at="2023-03-27T21:49:25 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:TestingNGDEMO.InstagramTestNG@1fa268de]" started-at="2023-04-14T10:55:21 IST" name="afterMethod" finished-at="2023-04-14T10:55:21 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=VerifyInstagramLink status=SUCCESS method=InstagramTestNG.VerifyInstagramLink()[pri:1, instance:TestingNGDEMO.InstagramTestNG@1fa268de] output={null}]]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method signature="VerifyForgotPassworfLinkInstagram()[pri:2, instance:TestingNGDEMO.InstagramTestNG@333291e3]" started-at="2023-03-27T21:49:32 IST" name="VerifyForgotPassworfLinkInstagram" finished-at="2023-03-27T21:49:40 IST" duration-ms="8114" status="PASS">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:TestingNGDEMO.InstagramTestNG@1fa268de]" started-at="2023-04-14T10:55:21 IST" name="beforeMethod" finished-at="2023-04-14T10:55:27 IST" duration-ms="6449" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="VerifyForgotPassworfLinkInstagram()[pri:2, instance:TestingNGDEMO.InstagramTestNG@1fa268de]" started-at="2023-04-14T10:55:27 IST" name="VerifyForgotPassworfLinkInstagram" finished-at="2023-04-14T10:55:36 IST" duration-ms="8114" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- VerifyForgotPassworfLinkInstagram -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:TestingNGDEMO.InstagramTestNG@333291e3]" started-at="2023-03-27T21:49:40 IST" name="afterMethod" finished-at="2023-03-27T21:49:40 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:TestingNGDEMO.InstagramTestNG@1fa268de]" started-at="2023-04-14T10:55:36 IST" name="afterMethod" finished-at="2023-04-14T10:55:36 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=VerifyForgotPassworfLinkInstagram status=SUCCESS method=InstagramTestNG.VerifyForgotPassworfLinkInstagram()[pri:2, instance:TestingNGDEMO.InstagramTestNG@1fa268de] output={null}]]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:TestingNGDEMO.InstagramTestNG@333291e3]" started-at="2023-03-27T21:49:40 IST" name="beforeMethod" finished-at="2023-03-27T21:49:47 IST" duration-ms="7318" status="PASS">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:TestingNGDEMO.InstagramTestNG@1fa268de]" started-at="2023-04-14T10:55:36 IST" name="beforeMethod" finished-at="2023-04-14T10:55:43 IST" duration-ms="7160" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="VerifyGOHOMEpAGE()[pri:3, instance:TestingNGDEMO.InstagramTestNG@333291e3]" started-at="2023-03-27T21:49:47 IST" name="VerifyGOHOMEpAGE" finished-at="2023-03-27T21:49:47 IST" duration-ms="47" status="PASS">
+        <test-method signature="VerifyUserCanGoInstagramPageToFacebookMainPage()[pri:3, instance:TestingNGDEMO.InstagramTestNG@1fa268de]" started-at="2023-04-14T10:55:43 IST" name="VerifyUserCanGoInstagramPageToFacebookMainPage" finished-at="2023-04-14T10:55:43 IST" duration-ms="57" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[The following asserts failed:
+Tile is wrong expected [Create a ] but found [Create a Page]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: The following asserts failed:
+Tile is wrong expected [Create a ] but found [Create a Page]
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:47)
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:31)
+at TestingNGDEMO.InstagramTestNG.VerifyUserCanGoInstagramPageToFacebookMainPage(InstagramTestNG.java:161)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- VerifyGOHOMEpAGE -->
-        <test-method is-config="true" signature="clearObject()[pri:0, instance:TestingNGDEMO.InstagramTestNG@333291e3]" started-at="2023-03-27T21:49:47 IST" name="clearObject" finished-at="2023-03-27T21:49:47 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- clearObject -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:TestingNGDEMO.InstagramTestNG@333291e3]" started-at="2023-03-27T21:49:47 IST" name="afterMethod" finished-at="2023-03-27T21:49:47 IST" duration-ms="0" status="PASS">
+        </test-method> <!-- VerifyUserCanGoInstagramPageToFacebookMainPage -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:TestingNGDEMO.InstagramTestNG@1fa268de]" started-at="2023-04-14T10:55:43 IST" name="afterMethod" finished-at="2023-04-14T10:55:44 IST" duration-ms="1038" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=VerifyUserCanGoInstagramPageToFacebookMainPage status=FAILURE method=InstagramTestNG.VerifyUserCanGoInstagramPageToFacebookMainPage()[pri:3, instance:TestingNGDEMO.InstagramTestNG@1fa268de] output={null}]]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="afterTest()[pri:0, instance:TestingNGDEMO.InstagramTestNG@333291e3]" started-at="2023-03-27T21:49:47 IST" name="afterTest" finished-at="2023-03-27T21:49:48 IST" duration-ms="246" status="PASS">
+        <test-method is-config="true" signature="clearObject()[pri:0, instance:TestingNGDEMO.InstagramTestNG@1fa268de]" started-at="2023-04-14T10:55:44 IST" name="clearObject" finished-at="2023-04-14T10:55:44 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clearObject -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:TestingNGDEMO.InstagramTestNG@1fa268de]" started-at="2023-04-14T10:55:44 IST" name="afterTest" finished-at="2023-04-14T10:55:44 IST" duration-ms="259" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
